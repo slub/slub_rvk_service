@@ -2,7 +2,7 @@
 This scripts provides a JSON service for RVK-Notations
 
 ## Installation and use with Apache server
-1. pull git with "git clone https://git.slub-dresden.de/slub-webseite/slub-rvk-service.git /var/www/api"
+1. pull git with "git clone https://github.com/slub/slub_rvk_service.git /var/www/api"
 2. change directory to "/var/www/api"
 3. check for write access e.g. join group "www-data", userown for "www-data:www-data" and usermod g+w
 4. start update script (first install included) with "php update.php"
