@@ -8,6 +8,9 @@ This scripts provides a JSON service for RVK-Notations
 4. start update script (first install included) with "php update.php"
 5. finally test the service with your browser as described below
 
+Hint: When the script immediately stops with "No new cache created because update was not necessary or failed at some point." but you don't have a cache,
+use "php createCache.php". A valid rvko file renamed as "rvko_current.xml" needs to exist in the xml folder.
+
 ## XML-Update
 Run update.php manually or use crontab like:
     0 1 20 1-12/3 * www-data php /var/www/api/update.php
